@@ -1,36 +1,13 @@
 <p align="center">
   
-  <h1 align="center"><strong>🎥 [CVPR 2025] VTON 360: High-Fidelity Virtual Try-On from Any Viewing Direction</strong></h3>
-
-<p align="center">
-    <a href="https://github.com/scnuhealthy/" class="name-link" target="_blank">Zijian He<sup>1</sup> </a>,
-    <a href="https://github.com/Thyme-git/" class="name-link" target="_blank">Yuwei Ning<sup>2</sup> </a>,
-    <a href="https://scholar.google.com/citations?user=ojgWPpgAAAAJ&hl=zh-CN&oi=ao/" class="name-link" target="_blank">Yipeng Qin<sup>3</sup></a>,
-    <a href="https://wanggrun.github.io/" class="name-link" target="_blank">Guangrun Wang<sup>1</sup></a>,
-    <a href="https://scholar.google.com/citations?hl=zh-CN&user=4pg3rtYAAAAJ" class="name-link" target="_blank">Sibei Yang<sup>4</sup></a>,
-    <a href="https://scholar.google.com/citations?user=Nav8m8gAAAAJ&hl=zh-CN&oi=ao" class="name-link" target="_blank">Liang lin<sup>1,5</sup></a>,
-    <a href="http://guanbinli.com/" class="name-link" target="_blank">Guanbin Li<sup>1,5*</sup></a>
-    <br>
-    * Corresponding authors <sup>1</sup>Sun Yat-sen University, <sup>2</sup>Huazhong University of Science and Technology,
-    <br>
-    <sup>3</sup>Cardiff University, <sup>4</sup>ShanghaiTech University, <sup>5</sup>Peng Cheng Laboratory
-</p>
-
-<div align="center">
-
-[![Badge with Logo](https://img.shields.io/badge/arXiv-2503.12165-red?logo=arxiv)
-](https://arxiv.org/pdf/2503.12165)
-[![Badge with Logo](https://img.shields.io/badge/Project-Page-blue?logo=homepage)](https://scnuhealthy.github.io/VTON360/)
-</div>
-
-## ✨ News
-- [03.18.2025] We release our code and demo data for 3D lifting.
+  <h1 align="center"><strong>🎥VTON 360: High-Fidelity Virtual Try-On from Any Viewing Direction</strong></h3>
 
 ## ⚙️ Installation
 
 Clone the repo and create a new conda env.
 ```bash
-git clone https://github.com/scnuhealthy/VTON360.git
+git clone https://github.com/Sobhu7777/VTON.git
+cd VTON360
 conda create -n vton360 python=? (TO BE CHECKED)
 conda activate vton360
 ```
@@ -191,15 +168,4 @@ You can refer to [NeRF Studio's Dataset Format](https://docs.nerf.studio/quickst
 ```bash
 cd src
 bash scripts/splatfactox.sh
-```
-
-## Citation
-If you find this code or find the paper useful for your research, please consider citing:
-```
-@article{he2025vton,
-  title={VTON 360: High-fidelity virtual try-on from any viewing direction},
-  author={He, Zijian and Ning, Yuwei and Qin, Yipeng and Wang, Wangrun and Yang, Sibei and Lin, Liang and Li, Guanbin},
-  journal={arXiv preprint arXiv:2503.12165},
-  year={2025}
-}
 ```
